@@ -1,0 +1,6 @@
+- 👋 Hi, I’m @Thomas-quinn7
+- 👀 I’m interested in quantative trading
+- 🌱 I’m currently learning actuarial and fincincial studies
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me https://www.linkedin.com/in/thomassquinn/
+- 😄 Pronouns: he/him
