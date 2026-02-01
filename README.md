@@ -1,2 +1,1 @@
-UCD actuarial and Fiancial Studies student
-Persuing quant or market orientated position
+UCD Actuarial and Fiancial Studies student expected 1.1, persuing quant or market orientated position. This is my coding enviroment I explore market ideas and develop trading strategies. All strategies are my own. Please inform me if you want to use any of my work or would like to work together. 
