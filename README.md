@@ -13,7 +13,7 @@ I build and test trading strategies — and try just as hard to break them.
 - **[options-toolkit](https://github.com/Thomas-quinn7/options-toolkit)** — Black-Scholes pricing, implied-volatility surfaces & smiles, a skew-based bubble indicator, and no-arbitrage checks.
 - **[pairs-trading-toolkit](https://github.com/Thomas-quinn7/pairs-trading-toolkit)** — cointegration pair screening, mean-reversion spread strategy, backtesting, and portfolio optimisation.
 - **[equity-forecasting](https://github.com/Thomas-quinn7/equity-forecasting)** — equity time-series forecasting with ARIMA (mean) and GARCH (volatility) models.
-- **[Polymarket_trader](https://github.com/Thomas-quinn7/Polymarket_trader)** — open-source Polymarket trading infrastructure: CLOB execution, wall-clock backtester, slippage gate, FastAPI dashboard, 776 tests.
+- **[Polymarket_trader](https://github.com/Thomas-quinn7/Polymarket_trader)** — open-source Polymarket trading infrastructure: CLOB execution, wall-clock backtester, slippage gate, FastAPI dashboard, 776 tests (the public snapshot of a 3,300+-test private system).
 - **[mental-math-trainer](https://github.com/Thomas-quinn7/mental-math-trainer)** — a configurable arithmetic drill for keeping interview/desk math sharp.
 
 ### Toolkit
@@ -22,7 +22,7 @@ I build and test trading strategies — and try just as hard to break them.
 
 ### Beyond the screen
 
-President of one of Ireland's largest college poker societies. Competed in the Rotman International Trading Competition (RITC) — 93rd percentile of 350. Two summers of actuarial internships at Grant Thornton and Aviva.
+President of one of Ireland's largest college poker societies. Competed in RITC x Trinity (the Rotman International Trading Competition's Trinity College Dublin event) — live and in person, 93rd percentile of 350. Two summers of actuarial internships at Grant Thornton and Aviva.
 
 ### Reach me
 
