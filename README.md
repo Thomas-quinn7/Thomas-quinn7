@@ -2,7 +2,7 @@
 
 Actuarial & Financial Studies student at UCD (First Class Honours), aiming at quantitative trading. Most of what I build is in relation to financial markets: Tools to trade, price and model them.
 
-I build and test trading strategies — and try just as hard to break them.
+I build and test trading strategies and try just as hard to break them.
 
 ### What I'm working on
 
