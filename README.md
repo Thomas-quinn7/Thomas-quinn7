@@ -1,6 +1,6 @@
 # Thomas Quinn
 
-Actuarial & Financial Studies student at UCD (First Class Honours), aiming at quantitative trading. Most of what I build circles one question: how do you make a good decision when you only know the odds?
+Actuarial & Financial Studies student at UCD (First Class Honours), aiming at quantitative trading. Most of what I build is in relation to financial markets: Tools to trade, price and model them.
 
 I build and test trading strategies — and try just as hard to break them.
 
