@@ -12,9 +12,8 @@ I build and test trading strategies and try just as hard to break them.
 
 - **[options-toolkit](https://github.com/Thomas-quinn7/options-toolkit)** — Black-Scholes pricing, implied-volatility surfaces & smiles, a skew-based bubble indicator, and no-arbitrage checks.
 - **[pairs-trading-toolkit](https://github.com/Thomas-quinn7/pairs-trading-toolkit)** — cointegration pair screening, mean-reversion spread strategy, backtesting, and portfolio optimisation.
-- **[equity-forecasting](https://github.com/Thomas-quinn7/equity-forecasting)** — equity time-series forecasting with ARIMA (mean) and GARCH (volatility) models.
+- **[equity-forecasting](https://github.com/Thomas-quinn7/equity-forecasting)** — ARIMA (mean) and GJR-GARCH (volatility) forecasting with a walk-forward out-of-sample backtest: QLIKE-scored against EWMA and rolling baselines, with Mincer-Zarnowitz and Diebold-Mariano tests.
 - **[Polymarket_trader](https://github.com/Thomas-quinn7/Polymarket_trader)** — open-source Polymarket trading infrastructure: CLOB execution, wall-clock backtester, slippage gate, FastAPI dashboard, 776 tests (the public snapshot of a 3,300+-test private system).
-- **[mental-math-trainer](https://github.com/Thomas-quinn7/mental-math-trainer)** — a configurable arithmetic drill for keeping interview/desk math sharp.
 
 ### Toolkit
 
