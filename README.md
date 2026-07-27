@@ -21,7 +21,7 @@ I build and test trading strategies and try just as hard to break them.
 
 ### Beyond the screen
 
-Co-president of one of Ireland's largest college poker societies. Competed in RITC x Dublin (the Rotman International Trading Competition's Dublin event, hosted at Trinity College Dublin) — live and in person, 6th of 100 teams (94th percentile). Actuarial internships at Aviva (two summers, group-protection pricing) and Grant Thornton (current, reserving).
+Co-president of one of Ireland's largest college poker societies. Competed in RITC x Dublin (the Rotman International Trading Competition's Dublin event, hosted at Trinity College Dublin) — live and in person, 6th of 100 teams (94th percentile). Actuarial internships at Aviva (two summers, group-protection pricing) and Grant Thornton (seconded to BMA Regulator Data Analytics & AI team).
 
 ### Reach me
 
