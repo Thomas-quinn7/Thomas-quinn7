@@ -34,3 +34,10 @@ Co-president of one of Ireland's largest college poker societies. Competed in RI
 ### Reach me
 
 [LinkedIn](https://www.linkedin.com/in/thomassquinn/) Â· thomas.quinn3@ucdconnect.ie
+
+
+Co-president of one of Ireland's largest college poker societies. Competed in RITC x Dublin (the Rotman International Trading Competition's Dublin event, hosted at Trinity College Dublin), live and in person, 6th of 100 teams. Actuarial internships at Aviva (two summers, group-protection pricing) and Grant Thornton (seconded to the BMA Regulator Data Analytics & AI team).
+
+### Reach me
+
+[LinkedIn](https://www.linkedin.com/in/thomassquinn/) Â· thomas.quinn3@ucdconnect.ie
