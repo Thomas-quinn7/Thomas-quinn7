@@ -1,6 +1,6 @@
 # Thomas Quinn
 
-Final-year Actuarial and Financial Studies student at UCD (on track for First Class Honours), aiming at quantitative trading. Most of what I build is about financial markets: tools to trade, price and model them, and the testing to know when to trust them.
+I am a final-year Actuarial and Financial Studies student at UCD, on track for First Class Honours, and I am very keen to work in quantitative trading. Most of what I build is for financial markets, tools to trade, price and model them, and I put as much work into testing them as I do into building them.
 
 ### What I'm working on
 
