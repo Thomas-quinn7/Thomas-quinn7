@@ -1,36 +1,23 @@
 # Thomas Quinn
 
-I am a final-year Actuarial and Financial Studies student at UCD, on track for First Class Honours, and I am very keen to work in quantitative trading. Most of what I build is for financial markets, tools to trade, price and model them, and I put as much work into testing them as I do into building them.
+I am a final-year Actuarial and Financial Studies student at UCD in Dublin, on track for First Class Honours, and I am applying for a masters in statistics and quantitative finance to start in September 2027. I am very keen to work in quantitative research and trading. Most of my projects ask the same question, whether a model really beats a simple baseline once look-ahead bias and multiple testing are dealt with properly, and I report the answer either way.
 
-### What I'm working on
+### Research projects
 
-**A systematic trading system for Polymarket prediction markets.** It began as an open-source framework I built with a friend ([`Polymarket_trader`](https://github.com/Thomas-quinn7/Polymarket_trader)). Since then I have taken it private and built it out end to end, largely on my own:
-
-- a live data layer streaming Polymarket order books and Binance prices, with around 40 scheduled services recording market data around the clock (150+ GB so far)
-- pricing for short-dated crypto binaries as digital options under a Merton jump-diffusion, with volatility and jump intensity estimated live
-- fractional-Kelly sizing with correlation haircuts, slippage-aware caps and drawdown circuit breakers
-- a wall-clock backtester that runs the exact same strategy code as the live loop
-- a statistical promotion gate (cluster-bootstrap confidence intervals, calibration checks, latency replay) that any strategy has to pass before it gets near real money
-- a FastAPI dashboard over all of it
-
-Roughly 140,000 lines of Python behind 3,800+ tests, paper trading unattended 24/7. It stays private because the execution stack and the strategies live there.
-
-### Selected projects
-
-- **[options-toolkit](https://github.com/Thomas-quinn7/options-toolkit)**: options analytics with the checks attached. JAX Black-Scholes and CRR American pricing, arbitrage-free SSVI vol surfaces fitted to bid-ask bands (butterfly and calendar conditions verified numerically, never assumed), a delta-hedged market-making simulator with GLFT quoting and adverse-selection experiments, a no-arbitrage scanner, and a daily option-chain capture feeding surface-dynamics studies. 132 offline tests.
-- **[market-regime-detection](https://github.com/Thomas-quinn7/market-regime-detection)**: Markov-switching volatility regimes on the S&P 500, built to be look-ahead-free and tested for it. Filtered vs smoothed vs walk-forward probabilities, Student-t emissions from scratch, financial turbulence, the Kritzman absorption ratio with its false-alarm rate measured, point-in-time macro data (ALFRED first releases) and a costed regime-based allocation backtest.
-- **[equity-forecasting](https://github.com/Thomas-quinn7/equity-forecasting)**: ARIMA (mean) and GJR-GARCH (volatility) forecasting with a walk-forward out-of-sample backtest, scored with QLIKE against EWMA and rolling baselines, with Mincer-Zarnowitz and Diebold-Mariano tests. The GJR-GARCH volatility forecasts beat both baselines on QLIKE for all three tickers.
-- **[pairs-trading-toolkit](https://github.com/Thomas-quinn7/pairs-trading-toolkit)**: Engle-Granger cointegration screening, mean-reversion spread backtesting with carry costs and quarterly recalibration, paired block bootstrap and portfolio optimisation, with causality tests that corrupt future prices and check no earlier signal changes.
-- **[Polymarket_trader](https://github.com/Thomas-quinn7/Polymarket_trader)**: the open-source framework layer of the system above. CLOB execution, wall-clock backtester, pre-trade slippage gate, probability-fed fractional-Kelly sizing, FastAPI dashboard, 816 tests.
+- **Prediction-market pricing (private).** Can a model-based edge in 5-minute crypto contracts on Polymarket survive honest out-of-sample testing? The model prices them as digital options under a Merton jump-diffusion, and every strategy has to pass a promotion gate (cluster-bootstrap confidence intervals and calibration checks) before it could go near real money. The gate refused my own strategy. It ranked outcomes well but its probabilities were badly miscalibrated, and across 245,000+ signals the claimed edge was negative or not distinguishable from zero in every edge bucket, which is a winner's curse. It has only ever traded on paper. The open-source framework underneath is [`Polymarket_trader`](https://github.com/Thomas-quinn7/Polymarket_trader), started with [Ciaran McDonnell](https://github.com/CiaranMcDonnell).
+- **[market-regime-detection](https://github.com/Thomas-quinn7/market-regime-detection)**: can a Markov-switching regime model forecast volatility better than the simple measures it competes with? The main claims were tested on four holdouts whose protocols were committed before the data was opened, and each holdout was run once. The answer was no. Adding a regime probability to a HAR forecast with implied volatility never made a measurable difference, and the write-up shows why the two-state probability behaves like a squashed EWMA volatility.
+- **[equity-forecasting](https://github.com/Thomas-quinn7/equity-forecasting)**: ARIMA (mean) and GJR-GARCH (volatility) forecasts scored walk-forward out of sample against EWMA and rolling baselines. GJR-GARCH had the lowest QLIKE on all three tickers, however the Diebold-Mariano test against EWMA is significant at 5% on only two of the three, and neither survives a Holm correction.
+- **[options-toolkit](https://github.com/Thomas-quinn7/options-toolkit)**: Black-Scholes and Greeks in JAX, arbitrage-free SVI/SSVI volatility surfaces fitted to bid-ask bands (butterfly and calendar conditions checked numerically), a delta-hedged market-making simulator with GLFT quoting and adverse selection, and surface studies on a small dataset of option chains captured since July 2026.
+- **[pairs-trading-toolkit](https://github.com/Thomas-quinn7/pairs-trading-toolkit)**: Engle-Granger cointegration screening and a mean-reversion spread backtest with carry costs and quarterly recalibration, with tests that corrupt future prices and check that no earlier signal changes.
 
 ### Toolkit
 
-`Python` (NumPy · pandas · SciPy · statsmodels · JAX · pytest) · `R` · `SQL` · `Git` · options pricing · time-series · Kelly sizing
+`Python` (NumPy · pandas · SciPy · statsmodels · JAX · pytest) · `R` · `SQL` · `Git` · time series · volatility forecasting · bootstrap inference · calibration · options pricing
 
 ### Beyond the screen
 
-Co-president of one of Ireland's largest college poker societies. Competed in RITC x Dublin (the Rotman International Trading Competition's Dublin event, hosted at Trinity College Dublin), live and in person, 6th of 100 teams. Actuarial internships at Aviva (two summers, group-protection pricing) and Grant Thornton (seconded to the BMA Regulator Data Analytics & AI team).
+President of the UCD Poker Society, running weekly tournament nights. Competed with my team in RITC x Dublin 2025 (the Rotman International Trading Competition's Dublin event, hosted at Trinity College Dublin), live and in person, finishing 6th of 100 teams. Actuarial internships at Aviva (two summers, group protection pricing) and Grant Thornton (seconded to the BMA Regulator Data Analytics & AI team).
 
 ### Reach me
 
-[LinkedIn](https://www.linkedin.com/in/thomassquinn/) · thomas.quinn3@ucdconnect.ie
+[LinkedIn](https://www.linkedin.com/in/thomassquinn/) · tq3435@gmail.com
