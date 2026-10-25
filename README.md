@@ -16,7 +16,7 @@ I am a final-year Actuarial and Financial Studies student at UCD in Dublin, on t
 
 ### Beyond the screen
 
-President of the UCD Poker Society, running weekly tournament nights. Competed with my team in RITC x Dublin 2025 (the Rotman International Trading Competition's Dublin event, hosted at Trinity College Dublin), live and in person, finishing 6th of 100 teams. Actuarial internships at Aviva (two summers, group protection pricing) and Grant Thornton (seconded to the BMA Regulator Data Analytics & AI team).
+President of the UCD Poker Society, one of Ireland's largest college poker societies, running weekly tournament nights. Competed with my team in RITC x Dublin 2025 (the Rotman International Trading Competition's Dublin event, hosted at Trinity College Dublin), live and in person, finishing 6th of 100 teams. Actuarial internships at Aviva (two summers, group protection pricing) and Grant Thornton (seconded to the BMA Regulator Data Analytics & AI team).
 
 ### Reach me
 
